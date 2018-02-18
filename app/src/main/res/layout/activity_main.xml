@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.eatbossresto.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/juduleatboss" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="24dp"
+        android:text="Pilih Menu"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_intro_text"
+        android:id="@+id/rgPilihMenu"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbDineIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="13dp"
+            android:text="@string/Dine_In"
+            android:textAlignment="center"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbTakeAway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Take_Away" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Pilih Pesanan"
+        android:layout_below="@+id/rgPilihMenu"/>
+
+
+</LinearLayout>

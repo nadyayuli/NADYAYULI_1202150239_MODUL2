@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.eatbossresto.TakeAwayActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identitas Pengunjung"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/Nama"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:hint="Nama"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/Telp"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="Telepon"
+            android:layout_gravity="center_horizontal"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/Alamat"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="Alamat"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textMultiLine"/>
+
+        <EditText
+            android:id="@+id/Catatan"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="Catatan"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textMultiLine"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atur Pesanan Khusus" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time" />
+
+            <Button
+                android:id="@+id/date"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Date" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="selectMenu2"
+            android:layout_gravity="center_horizontal"
+            android:text="Pilih Pesanan"/>
+    </LinearLayout>
+</LinearLayout>

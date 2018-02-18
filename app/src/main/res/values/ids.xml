@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="order_intro_text" type="id">order intro text</item>
+    <item name="Take_Away" type="id">Take_Away</item>
+    <item name="Dine_In" type="id">Dine_In</item>
+    <item name="radioButtonDineIn" type="id">radioButtonDineIn</item>
+    <item name="radioButtonTakeAway" type="id">radioButtonTakeAway</item>
+    <item name="radioPilihMenu" type="id">Pilih Menu</item>
+    <item name="RadioGroup" type="id">RadioGroup</item>
+    <item name="button_pesan" type="id">button_pesan</item>
+    <item name="bt" type="id">btn</item>
+    <item name="PilihPesanan" type="id">PilihPesanan</item>
+    <item name="rbTakeAway" type="id">Take Away</item>
+    <item name="rbDineIn" type="id">Dane In</item>
+</resources>
